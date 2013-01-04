@@ -1,10 +1,13 @@
 Source: <?php echo $name . "\n"; ?>
 Section: php
 Priority: extra
-Maintainer: Gunnar Wrobel <wrobel@horde.org>
+Maintainer: Horde Maintainers <pkg-horde-hackers@lists.alioth.debian.org>
+Uploaders: Mathieu Parent <sathieu@debian.org>
 Build-Depends: debhelper (>= 8.0.0), pkg-php-tools, pear-horde-channel
-Standards-Version: 3.9.4
+Standards-Version: 3.9.6
 Homepage: http://www.horde.org/
+Vcs-Git: git://anonscm.debian.org/pkg-horde/PEAR/<?php echo $name . ".git\n"; ?>
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-horde/PEAR/<?php echo $name . ".git\n"; ?>
 
 Package: <?php echo $name . "\n"; ?>
 Architecture: all
