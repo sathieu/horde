@@ -1,6 +1,7 @@
-<?php echo $name; ?> (<?php echo $version; ?>-1) unstable; urgency=low
+<?php echo $name; ?> (<?php echo $version; ?>-1) UNRELEASED; urgency=low
 
   * Horde's <?php echo $component->getName(); ?> package
+  * Initial packaging (Closes: #nnnnnn)
 
- -- Gunnar Wrobel <wrobel@horde.org>  <?php echo date('D, d M Y H:i:s O'); ?>
+ -- Mathieu Parent <sathieu@debian.org>  <?php echo date('D, d M Y H:i:s O'); ?>
 
